@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>首页</title>
+        
+        <link rel="stylesheet" href="bootstrap-3.3.7/dist/css/bootstrap.min.css" type="text/css">
+        <link rel="stylesheet" href="index.css" type="text/css" >
+		<script src="http://cdn.bootcss.com/jquery/2.1.1/jquery.min.js"></script>
+		<script src="bootstrap-3.3.7/dist/js/bootstrap.min.js"></script>
+    </head>
+    <body>
+        <header>
+            <div id="topanchor"></div>
+            <nav>
+                <a href="index.html" class="navigation" name="index">首页</a>
+                <a href="src/html/browser.htm" class="navigation" name="browser">浏览页</a>
+                <a href="src/html/search.htm" class="navigation" name="search">搜索页</a>
+                <div class="dropdown">
+                    <a class="dropbt">个人中心
+                        <img class="list" src="img/others/list.png" width="20px" height="20px" >
+                    </a>
+                    <div class="dropdown-content">
+                        <a href="src/html/upload.htm">
+                            <img class="manu" src="img/others/upload.png" width="25px" height="25px" >上传
+                        </a>
+                        <a href="src/html/mypic.htm">
+                            <img class="manu" src="img/others/mypic.png" width="25px" height="25px">我的照片
+                        </a>
+                        <a href="src/html/favorates.htm">
+                            <img class="manu" src="img/others/favorate.png" width="25px" height="25px">我的收藏
+                        </a>
+                        <a href="src/html/signin.htm">
+                            <img class="manu" src="img/others/login.png" width="25px" height="25px" >登入
+                        </a> 
+                    </div>
+                </div>
+            </nav>
+        </header>
+        <main>
+            <div id="slidershow" class="carousel slide" data-ride="carousel" data-interval = 2000 data-pause = "hover" data-wrap="true">
+                <div class="carousel-inner">
+                    <div class="item">
+                        <a href="##" ><img src="img/normal/medium/6114907897.jpg"  id="pica"></a>
+                    </div>
+                    <div class="item active">
+                        <a href="##" ><img src="img/normal/medium/6114881215.jpg" id="picb"></a>
+                    </div>
+                    <div class="item">
+                        <a href="##"><img src="img/normal/medium/8710320515.jpg"   id="picc"></a>
+                    </div>
+                    <a class="left carousel-control" href="#slidershow" role="button" data-slide="prev" >
+                    <span class="glyphicon glyphicon-chevron-left"></span>
+                    </a>
+                    <a class="right carousel-control" href="#slidershow" role="button" data-slide="next">
+                        <span class="glyphicon glyphicon-chevron-right"></span>
+                    </a> 
+                </div>
+            <section>
+                <table name="picshow">
+                    <tr>
+                        <td>
+                            <figure class="show">
+                                <img src="img/square/square-medium/222222.jpg">
+                                <figcaption>图片标题
+                                </figcaption>
+                            </figure>
+                        </td>
+                        <td>
+                            <p class="show">这里是图片描述</p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <figure class="show">
+                                <img src="img/square/square-medium/8730408907.jpg">
+                                <figcaption>图片标题
+                                </figcaption>
+                            </figure>
+                        </td>
+                        <td>
+                            <p class="show">这里是图片描述</p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <figure class="show">
+                                <img src="img/square/square-medium/9494464567.jpg">
+                                <figcaption>图片标题
+                                </figcaption>
+                            </figure>
+                        </td>
+                        <td>
+                            <p class="show">这里是图片描述</p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <figure class="show">
+                                <img src="img/square/square-medium/5855174537.jpg">
+                                <figcaption>图片标题
+                                </figcaption>
+                            </figure>
+                        </td>
+                        <td>
+                            <p class="show">这里是图片描述</p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <figure class="show">
+                                <img src="img/square/square-medium/5855221959.jpg">
+                                <figcaption>图片标题
+                                </figcaption>
+                            </figure>
+                        </td>
+                        <td>
+                            <p class="show">这里是图片描述</p>
+                        </td>
+                    <tr>
+                    <tr class="last">
+                        <td>
+                                <figure class="show">
+                                <img src="img/square/square-medium/9504609042.jpg">
+                                <figcaption>图片标题
+                                </figcaption>
+                            </figure>
+                        </td>
+                        <td>
+                            <p class="show">这里是图片描述</p>
+                        </td>
+                    </tr>
+                </table>
+            </section>
+        </main>
+        <footer>
+            <p>
+                Copyright © 2001 - 2020 eproject.fudan.edu.cn All Rights Reserved. 大胖氢股份有限公司 版权所有
+            </p>
+            <p>
+                沪网文[2020]9527-666号|新出网证(沪)字00号|ICP证沪AA-112233445566|沪公网安备 19302010036号|版权保护投诉指引
+            </p>    
+            <p>
+                文明办网 文明上网 举报、纠纷处理及不良内容举报电话：110 | 举报邮箱：19302010036@fudan.com 
+            </p>
+        </footer>
+        <button name="refresh" class="float" title="刷新页面"  onclick="alert('图片已刷新')">
+            <img src="img/others/refresh.png">
+        </button>
+        <button name="gotop" class="float" title="回到顶部" onclick="window.location.href='#topanchor'">
+            <img src="img/others/gotop.png">
+        </button>
+<!--
+        <script src="https://www.imooc.com/static/lib/jquery/2.1.1/jquery.js"></script>
+        <script type="text/javascript" src="bootstrap-3.3.7/dist/js/bootstrap.min.js"></script>-->
+    </body>
+</html>
