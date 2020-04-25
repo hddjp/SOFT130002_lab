@@ -38,7 +38,6 @@ function showWindowHref(){
 
 //提示：mul为html中id为"mul"的元素对象，可直接通过mul.value获得其内的输入值。
 let mul = document.getElementById("mul");
-mul.addEventListener('change',timeTest)
 window.onload=function(){
     mul.value=1;
     this.timeTest();
